@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chatalot-app/static/css/main.ef734d1d.css",
-    "main.js": "/chatalot-app/static/js/main.efa93fa0.js",
+    "main.js": "/chatalot-app/static/js/main.ab3f4369.js",
     "static/media/messages.png": "/chatalot-app/static/media/messages.12205db3851b93fa864e.png",
     "static/media/messagesDark.png": "/chatalot-app/static/media/messagesDark.45d933a837c309a25a5e.png",
     "static/media/logoDark.png": "/chatalot-app/static/media/logoDark.9d474d60fd9c574b4bbd.png",
@@ -9,10 +9,10 @@
     "static/media/playStore.png": "/chatalot-app/static/media/playStore.9f0270e06c520448a690.png",
     "index.html": "/chatalot-app/index.html",
     "main.ef734d1d.css.map": "/chatalot-app/static/css/main.ef734d1d.css.map",
-    "main.efa93fa0.js.map": "/chatalot-app/static/js/main.efa93fa0.js.map"
+    "main.ab3f4369.js.map": "/chatalot-app/static/js/main.ab3f4369.js.map"
   },
   "entrypoints": [
     "static/css/main.ef734d1d.css",
-    "static/js/main.efa93fa0.js"
+    "static/js/main.ab3f4369.js"
   ]
 }

@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/chatalot-app/static/css/main.3c78516f.css",
-    "main.js": "/chatalot-app/static/js/main.e9197272.js",
+    "main.css": "/chatalot-app/static/css/main.fc9dd926.css",
+    "main.js": "/chatalot-app/static/js/main.7060d172.js",
     "static/media/messages.png": "/chatalot-app/static/media/messages.12205db3851b93fa864e.png",
     "static/media/messagesDark.png": "/chatalot-app/static/media/messagesDark.45d933a837c309a25a5e.png",
     "static/media/logoDark.png": "/chatalot-app/static/media/logoDark.9d474d60fd9c574b4bbd.png",
     "static/media/logoLight.png": "/chatalot-app/static/media/logoLight.cf8d17b778ba9988f0ba.png",
     "static/media/playStore.png": "/chatalot-app/static/media/playStore.9f0270e06c520448a690.png",
     "index.html": "/chatalot-app/index.html",
-    "main.3c78516f.css.map": "/chatalot-app/static/css/main.3c78516f.css.map",
-    "main.e9197272.js.map": "/chatalot-app/static/js/main.e9197272.js.map"
+    "main.fc9dd926.css.map": "/chatalot-app/static/css/main.fc9dd926.css.map",
+    "main.7060d172.js.map": "/chatalot-app/static/js/main.7060d172.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c78516f.css",
-    "static/js/main.e9197272.js"
+    "static/css/main.fc9dd926.css",
+    "static/js/main.7060d172.js"
   ]
 }

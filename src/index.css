@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+
+    .main::-webkit-scrollbar {
+        width: 0.25rem;
+    }
+    
+    .main::-webkit-scrollbar-track {
+        background: #1e1e24;
+    }
+    
+    .main::-webkit-scrollbar-thumb {
+        background: #6649b8;
+    }
+
+    .main {
+        @apply dark:bg-[#282535] h-[calc(100vh-48px)] w-screen overflow-y-scroll p-2 pb-8;
+    }
+
+    .message {
+        @apply flex items-end;
+    }
+
+    .message.sent {
+        @apply flex-row-reverse items-end;
+    }
+
+    .text.sent {
+        @apply text-white dark:bg-[#0b93f6] bg-[#6649b8] self-end mt-8 text-left rounded-br-none;
+    }
+
+    .text.received {
+        @apply bg-[#e5e5ea] text-black mt-8 text-left rounded-tl-none;
+    }
+
+    p.text {
+        @apply dark:shadow-none shadow-2xl max-w-[270px] min-w-0 leading-6 py-2 px-5 rounded-3xl relative text-white text-center break-words inline-block;
+    }
+
+    .userPhoto {
+        @apply w-6 h-6 rounded-full my-0.5 mx-3;
+    }
+
+    @screen sm {
+        p.text {
+            @apply max-w-[400px] min-w-0 leading-6 py-2 px-5 rounded-3xl relative text-white text-center break-words inline-block;
+        }  
+    }
+
+    @screen md {
+        p.text {
+            @apply max-w-[500px] min-w-0 leading-6 py-2 px-5 rounded-3xl relative text-white text-center break-words inline-block;
+        }  
+    }
+
 }
